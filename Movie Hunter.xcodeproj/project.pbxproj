@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0692C1F825B1DCF40045BFF2 /* Configuracao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692C1F725B1DCF40045BFF2 /* Configuracao.swift */; };
 		0692C1FD25B1E0780045BFF2 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 0692C1FC25B1E0780045BFF2 /* cover.png */; };
-		0692C20125B1FCC40045BFF2 /* FilmeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692C20025B1FCC40045BFF2 /* FilmeAPI.swift */; };
+		0692C20125B1FCC40045BFF2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692C20025B1FCC40045BFF2 /* Service.swift */; };
 		0692C20525B1FF410045BFF2 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692C20425B1FF410045BFF2 /* MovieModel.swift */; };
 		069FD4B025B1DAB100101A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069FD4AF25B1DAB100101A2D /* AppDelegate.swift */; };
 		069FD4B225B1DAB100101A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069FD4B125B1DAB100101A2D /* SceneDelegate.swift */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		0692C1F725B1DCF40045BFF2 /* Configuracao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuracao.swift; sourceTree = "<group>"; };
 		0692C1FC25B1E0780045BFF2 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover.png; path = Assets.xcassets/cover.png; sourceTree = "<group>"; };
-		0692C20025B1FCC40045BFF2 /* FilmeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeAPI.swift; sourceTree = "<group>"; };
+		0692C20025B1FCC40045BFF2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0692C20425B1FF410045BFF2 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		069FD4AC25B1DAB100101A2D /* Movie Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		069FD4AF25B1DAB100101A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		0692C1F025B1DBCD0045BFF2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				0692C20025B1FCC40045BFF2 /* FilmeAPI.swift */,
+				0692C20025B1FCC40045BFF2 /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0692C20525B1FF410045BFF2 /* MovieModel.swift in Sources */,
-				0692C20125B1FCC40045BFF2 /* FilmeAPI.swift in Sources */,
+				0692C20125B1FCC40045BFF2 /* Service.swift in Sources */,
 				069FD4B425B1DAB100101A2D /* MainViewController.swift in Sources */,
 				069FD4B025B1DAB100101A2D /* AppDelegate.swift in Sources */,
 				069FD4BA25B1DAB100101A2D /* Movie_Hunter.xcdatamodeld in Sources */,
